@@ -8,8 +8,7 @@ def MCD(a, b):
 
 
 def encontrar_mn(a, b):
-    mcd = MCD(a, b)
-    if mcd != 1:
+    if MCD(a, b) != 1:
         return None, None
     else:
         x, y = Euclides(a, b)
