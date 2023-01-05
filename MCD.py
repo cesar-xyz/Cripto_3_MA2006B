@@ -3,12 +3,11 @@
 Con recursividad
 
 def mcd(a, b):
-  if b == 0:
-    return a
-  else:
-    q = a // b  # Cociente de la división
-    r = a % b  # Resto de la división
-    return mcd(b, r)
+    if b == 0:
+        return a
+    else:
+        r = a % b  # Resto de la división
+        return mcd(b, r)
 '''
 
 
