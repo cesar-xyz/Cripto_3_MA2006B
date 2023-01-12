@@ -19,4 +19,8 @@ def mcd(a, b):
 
 
 # Ejemplo de uso
-print(mcd(8, 4))  # Salida: 4
+def main():
+    print(mcd(4, 6))  # Salida: 4
+
+if __name__ == '__main__':
+    main()

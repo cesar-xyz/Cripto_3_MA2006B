@@ -27,7 +27,7 @@ def subgrupos(list, identidad):
 
 
 def main():
-    S = [1, 2, 3]
+    S = [0, 1, 3]
     subgrupos(permutation(S), S)
 
     # Operacion de 3 elementos
