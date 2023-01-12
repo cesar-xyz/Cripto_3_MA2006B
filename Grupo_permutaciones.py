@@ -29,11 +29,12 @@ def subgrupos(list, identidad):
 def main():
     S = [1, 3, 5, 7]
     ORDEN = [0,1,2,3]
-    subgrupos(permutation(S), ORDEN)
+    print(permutation(S))
+    #subgrupos(permutation(S), ORDEN)
 
     # Operacion de 3 elementos
     a = operacion([2, 3, 1], S)
-    print(operacion([3, 1, 2], a))
+    #print(operacion([3, 1, 2], a))
 
 
 if __name__ == '__main__':

@@ -23,7 +23,17 @@ def inversos(G, n):
     for i in G:
         for j in G:
             if (i * j) % n == 1:
-                print('(',i, '*',j, f") % {n}  = {(i * j) % n}")
+                print('(', i, '*', j, f") % {n}  = {(i * j) % n}")
+
+
+def asociatividad(S):
+    for a in S:
+        for b in S:
+            for c in S:
+                if ((a * b) * c) % 8 != (a * (b * c)) % 8:
+                    return "No tiene asociatividad"
+                print(a,b,c)
+    return "Si tiene asociatividad"
 
 
 def main():
@@ -42,7 +52,7 @@ def main():
     print(U)
     # Si tiene todos sus elementos inverso.
     inversos(U, n)
-
+    print(asociatividad(U))
 
     #
 
