@@ -46,15 +46,16 @@ def main():
     # 2.-Verificar que U_8 es un grupo bajo la multiplicación.
     # Verificar si tiene neutro
     # Todos sus elementos tienen inverso
-    # Por transitividad
+    # Por asociatividad
     n = 8
     U = calcularU(n)
     print(U)
+    # Si tiene neutro
     # Si tiene todos sus elementos inverso.
     inversos(U, n)
+    # Si tiene asociatividad
     print(asociatividad(U))
-
-    #
+    # Cumple las tres condiciones para ser un grupo.
 
 if __name__ == '__main__':
     main()
