@@ -32,7 +32,7 @@ def asociatividad(S):
             for c in S:
                 if ((a * b) * c) % 8 != (a * (b * c)) % 8:
                     return "No tiene asociatividad"
-                print(a,b,c)
+                #print(a,b,c)
     return "Si tiene asociatividad"
 
 
@@ -47,7 +47,7 @@ def main():
     # Verificar si tiene neutro
     # Todos sus elementos tienen inverso
     # Por asociatividad
-    n = 8
+    n = 1021
     U = calcularU(n)
     print(U)
     # Si tiene neutro
