@@ -1,4 +1,3 @@
-#!/usr/bin/python
 
 def encryptCaesarCipher(text, s):
     result = ""
