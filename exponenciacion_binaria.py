@@ -9,7 +9,7 @@ def exp(a, n):
 
 
 def main():
-    print(exp(3, 199))
+    print(exp(2, 79) % 101)
 
 
 if __name__ == '__main__':

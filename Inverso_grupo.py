@@ -51,13 +51,7 @@ def inversos(U, n):
 
 
 def main():
-    n = 640
-    print('-', n)
-    U = calcularU(n)
-    print(inverso_fermat([49], n))
-    print(inverso_euler([49], n))
-    print(asociatividad(U, n, True))
-    '''
+
     """ 1.- Verificar que los siguientes conjuntos con la operación de multiplicación (módulo n) son grupos o no."""
     # 1) U_125
     n = 125
@@ -96,7 +90,7 @@ def main():
     print(inverso_fermat(U, n))
     print("Euler:")
     print(inverso_euler(U, n))
-'''
+
 
 if __name__ == '__main__':
     main()
